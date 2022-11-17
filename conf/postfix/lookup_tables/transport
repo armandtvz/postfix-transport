@@ -2,7 +2,7 @@
 # `postmap /etc/postfix/transport`
 # `postfix reload`
 #
-# Also, remember to set the following in main.conf
+# Also, remember to set the following in main.cf
 # `transport_maps = hash:/etc/postfix/transport`
 
 # =========================================
