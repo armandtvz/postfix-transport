@@ -1,0 +1,11 @@
+# Remember to run the following after editing:
+# `postmap /etc/postfix/transport`
+# `postfix reload`
+#
+# Also, remember to set the following in main.conf
+# `transport_maps = hash:/etc/postfix/transport`
+
+# =========================================
+# email address         transport name
+# =========================================
+example.com             custom_transport
